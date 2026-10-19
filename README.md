@@ -1,11 +1,11 @@
-# Cubiq Launcher
+# Epic Launcher
 ![Platform](https://img.shields.io/badge/Platform-Android-green?logo=android)
 ![Edition](https://img.shields.io/badge/Minecraft-Java%20Edition-3C8527)
 ![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue)
 ![Author](https://img.shields.io/badge/Author-Vivek%20Kumar-55FF55)
 
-**Cubiq Launcher** is a premier, high-performance **Minecraft: Java Edition launcher for Android**, featuring an authentic, pixel-accurate PC Minecraft Launcher interface design built natively with **Jetpack Compose**.
+**Epic Launcher** is a premier, high-performance **Minecraft: Java Edition launcher for Android**, featuring an authentic, pixel-accurate PC Minecraft Launcher interface design built natively with **Jetpack Compose**.
 
 Cubiq delivers a seamless desktop-grade Minecraft experience on mobile and touch devices with fine-grained performance controls, deep gamepad remapping, a drag-and-drop on-screen touch control editor, and multi-loader modding support.
 
@@ -65,37 +65,3 @@ Cubiq delivers a seamless desktop-grade Minecraft experience on mobile and touch
 * Android SDK (Compile SDK 34+)
 * JDK 17 or JDK 21
 
-### Compilation
-
-```bash
-# Clone the repository
-git clone https://github.com/VivxKumar07/Cubiq-Launcher.git
-cd Cubiq-Launcher
-
-# Build Debug APK
-./gradlew CubiqLauncher:assembleDebug
-
-# Build Release APK
-./gradlew CubiqLauncher:assembleRelease
-
-# Install directly to connected device / emulator
-./gradlew CubiqLauncher:installDebug
-```
-
-Compiled APKs will be located at:
-`CubiqLauncher/build/outputs/apk/debug/` and `CubiqLauncher/build/outputs/apk/release/`
-
----
-
-## 👥 Contributors & Maintainers
-
-* **Vivek Kumar** ([@VivxKumar07](https://github.com/VivxKumar07)) — Lead Developer & Maintainer
-
----
-
-## 📜 License & Open Source Attribution
-
-This project is licensed under the **[GNU General Public License v3.0 (GPL-3.0)](LICENSE)**.
-
-### Upstream Attribution
-Cubiq Launcher is built upon the open-source foundations of **Zalith Launcher 2** and **PojavLauncher**, redesigned with an authentic Minecraft PC launcher interface, modernized Compose UI architecture, and restored modular settings. All upstream copyright notices, contributions, and license obligations are preserved in full compliance with the GNU GPLv3 license.
